@@ -43,6 +43,7 @@
   "resources": [
     {
       "type": "Microsoft.Network/networkSecurityGroups",
+      "apiVersion": "2015-06-15",
       "name": "[variables('securityGroupName')]",
       "location": "[parameters('location')]",
       "apiVersion": "2018-03-01",
