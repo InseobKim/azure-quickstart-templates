@@ -49,9 +49,9 @@
   "resources": [
     {
       "type": "Microsoft.Network/networkSecurityGroups",
+      "apiVersion": "2018-03-01",
       "name": "[variables('securityGroupName')]",
       "location": "[parameters('location')]",
-      "apiVersion": "2018-03-01",
       "properties": {
         "securityRules": [
           {
@@ -89,6 +89,7 @@
     },
     {
       "type": "Microsoft.Network/networkInterfaces",
+      "apiVersion": "2017-06-01",
       "name": "[concat(variables('nicName'), copyIndex())]",
       "location": "[parameters('location')]",
       "dependsOn": [
