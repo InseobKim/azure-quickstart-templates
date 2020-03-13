@@ -400,7 +400,7 @@
     {
       "name": "data-node",
       "type": "Microsoft.Resources/deployments",
-      "apiVersion": "2015-11-01",
+      "apiVersion": "2017-05-10",
       "dependsOn": [
         "Microsoft.Resources/deployments/shared-resources"
       ],
