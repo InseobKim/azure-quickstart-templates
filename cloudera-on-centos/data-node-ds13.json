@@ -67,6 +67,7 @@
     },
     {
       "type": "Microsoft.Network/publicIPAddresses",
+      "apiVersion": "2015-06-15",
       "name": "[concat(variables('publicIPAddressName'), copyIndex())]",
       "location": "[parameters('location')]",
       "copy": {
