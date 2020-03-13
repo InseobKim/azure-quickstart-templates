@@ -55,7 +55,7 @@
     {
       "type": "Microsoft.Network/networkSecurityGroups",
       "name": "clouderavnet-sg",
-      "location": "[parameters('location')]",
+      "location": "Southeast Asia",
       "properties": {
         "securityRules": [
           {
