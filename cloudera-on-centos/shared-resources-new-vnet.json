@@ -54,6 +54,7 @@
     },
     {
       "type": "Microsoft.Network/networkSecurityGroups",
+      "apiVersion":"2017-12-01",
       "name": "clouderavnet-sg",
       "location": "Southeast Asia",
       "properties": {
