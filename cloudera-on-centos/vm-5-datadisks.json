@@ -207,6 +207,7 @@
     },
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
+      "apiVersion": "2015-05-01-preview",
       "name": "[concat(variables('vmName'), copyIndex(), '/prepareDisks')]",
       "location": "[parameters('location')]",
       "copy": {
