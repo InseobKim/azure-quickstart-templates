@@ -54,12 +54,12 @@
     },
     {
       "type": "Microsoft.Network/networkSecurityGroups",
-      "apiVersion":"2017-12-01",
+      "apiVersion":"2018-03-01",
       "name": "clouderavnet-sg",
-      "location": "Southeast Asia",
+      "location": "[resourceGroup().location]",
       "properties": {
         "securityRules": [
-          {
+         {
             "name": "SSH",
             "properties": {
               "description": "Allows SSH traffic",
