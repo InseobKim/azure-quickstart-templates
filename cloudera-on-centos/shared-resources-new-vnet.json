@@ -54,7 +54,7 @@
     },
     {
       "type": "Microsoft.Network/networkSecurityGroups",
-      "name": "[concat(parameters('networkSpec').virtualNetworkName, '-sg')]",
+      "name": "clouderavnet-sg",
       "location": "[parameters('location')]",
       "properties": {
         "securityRules": [
