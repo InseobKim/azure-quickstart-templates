@@ -69,6 +69,7 @@
   "resources": [
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
+      "apiVersion": "2015-05-01-preview",
       "name": "[concat(parameters('dnsNamePrefix'), '-mn0', '/prepareDisks')]",
       "location": "[parameters('location')]",
       "properties": {
