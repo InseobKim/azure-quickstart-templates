@@ -317,7 +317,7 @@
       "datanodeIpOctet3": "[variables('datanodeIpOctet3')]",
       "masterIP": "[variables('sa')]",
       "workerIP": "[concat(variables('ipOctet01'), add(variables('ipOctet2'), div(variables('datanodeIpOctet3'), 255)), '.', mod(variables('datanodeIpOctet3'), 255))]",
-      "virtualNetworkName": "[parameters('virtualNetworkName')]",
+      "virtualNetworkName": "clouderavnet",
       "virtualNetworkRGName": "[parameters('virtualNetworkRGName')]",
       "vnetNewOrExisting": "[parameters('vnetNewOrExisting')]",
       "virtualNetworkSubnetName": "[parameters('subnetName')]"
