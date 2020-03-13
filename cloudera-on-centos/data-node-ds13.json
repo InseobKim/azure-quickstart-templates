@@ -83,6 +83,7 @@
     },
     {
       "type": "Microsoft.Network/networkInterfaces",
+      "apiVersion": "2017-06-01",
       "name": "[concat(variables('nicName'), copyIndex())]",
       "location": "[parameters('location')]",
       "dependsOn": [
